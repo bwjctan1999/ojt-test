@@ -1,7 +1,10 @@
+import { useNavigate } from "react-router-dom";
 import DesignTeamwork from "../assets/svgs/DesignTeamwork.svg";
 import Button from "../components/Button";
 
 export default function Home() {
+  const navigate = useNavigate();
+
   return (
     <div className=" h-screen px-36 py-8">
       <div className="flex h-16 w-full gap-4 just">
@@ -18,6 +21,7 @@ export default function Home() {
           </h5>
           <div className="w-52">
             <Button
+              onClick={() => navigate("/Login")}
               text="Let's Go"
               bgcolor="bg-gradient-to-r from-gradientBlue-start to-gradientBlue-end"
             />
