@@ -10,9 +10,13 @@ export default function Login() {
         <TextField placeholder="Email" type="email" />
         <TextField placeholder="Password" type="password" />
         <a className="ml-auto block">Forgot Password?</a>
-        <Button text="Login" />
+
+        <Button
+          text="Login"
+          bgcolor="bg-gradient-to-r from-gradientBlue-start to-gradientBlue-end"
+        />
       </div>
-      <div className="grow h-2/5 flex justify-center lg:h-full lg:p-28">
+      <div className="flex h-2/5 grow justify-center lg:h-full lg:p-28">
         <img src={DesignTeamwork} alt="teamwork svg" />
       </div>
     </div>

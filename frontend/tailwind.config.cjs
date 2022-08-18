@@ -5,12 +5,15 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        carl: '#FAF1E4',
         background: {
           light: '#FAF1E4',
         },
         text: {
           primary: '#55823D',
+        },
+        gradientBlue: {
+          start: '#4A00E0',
+          end: '#8E2DE2',
         },
       },
       backgroundImage: {

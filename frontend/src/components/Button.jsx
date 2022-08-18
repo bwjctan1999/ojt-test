@@ -1,5 +1,5 @@
-export default function Button({text}) {
-    return (
-       <button className="w-full rounded-2xl bg-blue-700 shadow  text-white p-4">{text}</button>
-    );
-}   
+export default function Button({ text, bgcolor }) {
+  const style = `w-full rounded-lg shadow text-white p-4 font-bold ${bgcolor}`;
+
+  return <button className={style}>{text}</button>;
+}
