@@ -63,9 +63,13 @@ export default function Store() {
 
   const fillCards = () => {
     return tests.map(({ title, desc }) => (
-      <StoreCard title={title} desc={desc} />
+      <StoreCard title={title} desc={descLimiter(desc)} />
     ));
   };
+
+  const descLimiter = (string) => {
+    return string.length > 50 ? string.slice(0, 50).trim() + "..." : string;
+  }
 
   return (
     <div className="flex h-screen flex-col gap-8 p-4 lg:px-36 lg:py-8 ">
