@@ -31,6 +31,34 @@ export default function Store() {
       title: "Blabla Blablabla",
       desc: "sunt in culpa qui officia deserunt mollit anim id est laborum.",
     },
+    {
+      title: "Janitorial Service",
+      desc: "consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.",
+    },
+    {
+      title: "House Keeping",
+      desc: "uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    },
+    {
+      title: "Air Conditioner Cleaning",
+      desc: "consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.",
+    },
+    {
+      title: "Cook",
+      desc: "uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    },
+    {
+      title: "Electronics Repair",
+      desc: "consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.",
+    },
+    {
+      title: "Something I dunno",
+      desc: "sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    },
+    {
+      title: "Blabla Blablabla",
+      desc: "sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    },
   ];
 
   const fillCards = () => {
@@ -51,7 +79,7 @@ export default function Store() {
         </li>
       </ul>
 
-      <div className="grid grow grid-cols-1 gap-5 lg:grid-cols-5">
+      <div className="grid grow grid-cols-1 gap-5 md:grid-cols-3 xl:grid-cols-5">
         {fillCards()}
       </div>
     </div>
