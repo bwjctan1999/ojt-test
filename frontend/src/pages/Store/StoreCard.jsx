@@ -5,10 +5,9 @@ export default function StoreCard({ title, desc }) {
         <div className="h-12 w-12 rounded-lg bg-white"></div>
       </div>
       <div className="px-6 py-4">
-        <h6 className="text-s1 font-medium">{title}</h6>
-        <p className="text-b1">
+        <h6 className="text-h6 font-medium">{title}</h6>
+        <p className="text-s1 mt-2">
           {desc}
-          asdfasf
         </p>
       </div>
     </div>
