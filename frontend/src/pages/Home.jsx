@@ -6,13 +6,22 @@ export default function Home() {
   const navigate = useNavigate();
 
   return (
-    <div className=" h-screen px-36 py-8">
-      <div className="flex h-16 w-full gap-4 just">
-        <div className="block h-12 w-12 rounded-full bg-gradientBlue-start"></div>
-        <h4>Service</h4>
-      </div>
+    <div className="h-screen px-36 py-8">
+      <ul className="flex items-center justify-between">
+        <li className="text-h6 flex gap-4">
+          <div className="w-8 h-8 rounded-full bg-gradientBlue-start"></div>
+          Something
+        </li>
+        <li className="bg-slate-100 ">
+          <Button
+            onClick={() => navigate("/Login")}
+            text="Let's Go"
+            bgcolor="bg-gradient-to-r from-gradientBlue-start to-gradientBlue-end"
+          />
+        </li>
+      </ul>
 
-      <div className="flex h-full item-center justify-around">
+      <div className="item-center flex h-full justify-around">
         <div className="flex w-1/2 flex-col justify-center gap-8 ">
           <h2>Lorem ipsum dolor sit amet</h2>
           <h5>
@@ -28,7 +37,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="w-1/2 m-auto">
+        <div className="m-auto w-1/2">
           <img src={DesignTeamwork} alt="team work svg" />
         </div>
       </div>
