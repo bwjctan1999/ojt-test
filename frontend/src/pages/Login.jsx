@@ -10,24 +10,24 @@ export default function Login() {
 
           <img src={DesignTeamwork} alt="team work svg" />
         </div>
-        <h3 className="text-center text-h5 text-zinc-900 font-bold  mb-4 pb-3 ">Login</h3>
+        <h3 className="text-center text-h5 text-zinc-900 font-bold  mb-2 pb-3 ">Login</h3>
       
         <form action="">
-            <div className="mt-4">
-                <div>
+            <div>
+                <div className="mb-4">
                 <TextField type="text" placeholder="Email"
                             className="w-full px-4 py-2 mt-2 border rounded-md focus:outline-none focus:ring-1 focus:ring-blue-600"/>
-                            
+                      
                 </div>
-                <div className="mt-8 text-right">
+                <div className="mb-4 text-right">
                 <TextField
         
                  type="password" placeholder="Password"
-                            className="w-full px-4 py-2 mt-8 border rounded-md focus:outline-none focus:ring-1 focus:ring-blue-600"
+                            className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-1 focus:ring-blue-600"
                 />
                 </div>
 
-                <div className="mb-14 mt-8 "> 
+                <div className="mb-4 mt-4 "> 
                      <input type="checkbox"/>
                      <label class="text-sm"> Remember me</label>
                      <span class="psw">
