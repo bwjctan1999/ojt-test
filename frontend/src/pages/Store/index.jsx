@@ -1,4 +1,5 @@
 import LoginButton from "../../components/LoginButton";
+import FeatureCard from "../FeatureCard";
 import StoreCard from "./StoreCard";
 
 export default function Store() {
@@ -82,7 +83,7 @@ export default function Store() {
           <LoginButton />
         </li>
       </ul>
-
+      <FeatureCard />
       <div className="grid grow grid-cols-1 gap-5 md:grid-cols-3 xl:grid-cols-5">
         {fillCards()}
       </div>
