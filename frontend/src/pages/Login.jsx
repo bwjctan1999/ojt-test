@@ -4,9 +4,9 @@ import TextField from "../components/Textfield";
 
 export default function Login() {
   return (
-    <div className="flex items-center justify-center min-h-screen bg-white">
-    <div className=" xl:w-4/12 lg:w-5/12 md:w-5/12 px-12 pt-12 pb-10 text-left bg-white ">
-    <div className="m-auto w-1/2">
+    <div className="flex items-center justify-center min-h-screen bg-gray-50">
+    <div className=" xl:w-4/12 lg:w-5/12 md:w-5/12 px-12 pt-12 pb-10 text-left ">
+    <div className=" w-auto">
 
           <img src={DesignTeamwork} alt="team work svg" />
         </div>
@@ -27,7 +27,7 @@ export default function Login() {
                 />
                 </div>
 
-                <div className="mb-4 mt-4 "> 
+                <div className="mb-8 mt-4 "> 
                      <input type="checkbox"/>
                      <label class="text-sm"> Remember me</label>
                      <span class="psw">
@@ -46,7 +46,7 @@ export default function Login() {
                 </div>
 
                 <div className="text-center">
-                <p className="text-sm mt-8">Don't have an account? <a href="#" className="text-blue-600 hover:underline">Sign up</a></p>
+                <p className="text-sm mt-4">Don't have an account? <a href="#" className="text-blue-600 hover:underline">Sign up</a></p>
                 </div>
             </div>
         </form>
